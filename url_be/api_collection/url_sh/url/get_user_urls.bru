@@ -1,0 +1,16 @@
+meta {
+  name: get_user_urls
+  type: http
+  seq: NaN
+}
+
+get {
+  url: {{api_url}}/urls/user/1
+  body: none
+  auth: inherit
+}
+
+settings {
+  encodeUrl: true
+}
+​
